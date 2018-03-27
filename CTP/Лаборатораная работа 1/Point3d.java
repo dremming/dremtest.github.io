@@ -32,9 +32,9 @@ public class Point3d
     public Point3d()
     {
         // Call two-argument constructor and specify the origin.
-        xCoord=0;
-        yCoord=0;
-        zCoord=0;
+        xCoord=0.0;
+        yCoord=0.0;
+        zCoord=0.0;
     }
     /**
      * Return the X coordinate of the point.
