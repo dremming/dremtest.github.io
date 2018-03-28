@@ -29,7 +29,7 @@ public class Location
     }
     public int hashcode(Location val)
     {
-        final int intchislo=31;
+        final int intchislo=95;
         int result = 1;
         result=result*intchislo+xCoord;
         result=result*intchislo+yCoord;
